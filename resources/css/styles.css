@@ -8,7 +8,7 @@ body{
 }
 
 
-<!--Header Part-->
+/* Header Part */
 
 .colmar-acdemy-logo{
     margin-top: 10px;
@@ -36,13 +36,32 @@ span{
 }
 
 
-<!--Section one-->
-.banner{
-    
-    background-color: rgb(211, 207, 207);
+/* Section one */
+
+.banner {
+    background-color: rgb(219, 216, 216);
     display:flex;
+    
+}
+.image{
+    width: 60%;
 }
 .banner div img{
-    width: 60%;
+    width: 100%;
     padding: 32px 24px;
+}
+.section-one-content{
+    display: block;
+    text-align: left;
+    margin: auto;
+}
+h1,p{
+    padding-bottom: 1em;
+}
+.section-one-content input{
+    background-color: grey;
+    border: 0;
+    text-align: center;
+    padding: 8px 0;
+    width: 80%;
 }
